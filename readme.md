@@ -4,7 +4,7 @@
 ```
 make install
 ```
-3. Generate an (OpenAI API key)[https://openai.com/api/] and set the env variable `OPENAI_API_KEY={your-key}`
+3. Generate an [OpenAI API key](https://openai.com/api/) and set the env variable `OPENAI_API_KEY={your-key}`
 4. Run 
 ```
 ai {your question}
@@ -29,3 +29,5 @@ This will list all of your branches with the most recently used branch at the to
 
 - It currently has no memory, all requests are in isolation of each other
 - It is using the chat ai model not the coding ai model, future versions will dynamically choose the most approriate model
+- It is not configurable
+- Setup is clunky
