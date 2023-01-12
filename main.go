@@ -22,6 +22,7 @@ func main() {
 		MaxTokens: 1000,
 		Prompt:    text,
 	}
+
 	// Send request to OpenAI
 	resp, err := c.CreateCompletion(ctx, req)
 	if err != nil {
