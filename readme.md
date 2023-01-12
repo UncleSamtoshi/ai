@@ -1,6 +1,6 @@
 # What is it?
 
-*Have access to OpenAI in your CLI. Never break flow.*
+*Have access to OpenAI from your command line. Never break flow.*
 
 # Getting started
 1. Clone this repo.
@@ -17,19 +17,31 @@ make install
 ai {your question}
 ```
 
-# Example
+# Examples
+```
+% ai how can i sort branches in git by most recently used
 
-```
-ai how can i sort branches in git by most recently used
-```
-
-Response
-```
 Unfortunately, Git does not allow you to sort branches by most recently used. However, you can find the most recently used branch with the following command: 
 
 git for-each-ref --sort=-committerdate --format='%(refname:short)' refs/heads/
 
 This will list all of your branches with the most recently used branch at the top of the list.
+```
+
+```
+% ai show me an example react component
+
+import React from 'react';
+
+const ExampleComponent = () => {
+  return (
+    <div>
+      <p>Hello, I'm an example React component!</p>
+    </div>
+  );
+};
+
+export default ExampleComponent;
 ```
 
 # Limitations
