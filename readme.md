@@ -1,11 +1,18 @@
+# What is it?
+
+*Have access to OpenAI in your CLI. Never break flow.*
+
 # Getting started
-1. Clone this repo
-2. Run 
+1. Clone this repo.
+```
+git clone https://github.com/UncleSamtoshi/ai.git
+```
+2. Build and install the program with the following command (Golang must be present on your machine).
 ```
 make install
 ```
-3. Generate an [OpenAI API key](https://openai.com/api/) and set the env variable `OPENAI_API_KEY={your-key}`
-4. Run 
+3. Generate an [OpenAI API key](https://openai.com/api/) and set the env variable `OPENAI_API_KEY={your-key}`.
+4. Use the command below.
 ```
 ai {your question}
 ```
